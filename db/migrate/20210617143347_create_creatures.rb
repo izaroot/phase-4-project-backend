@@ -4,7 +4,7 @@ class CreateCreatures < ActiveRecord::Migration[6.1]
       t.string :creature_name
       t.string :password_digest
       t.string :name
-      t.string :type
+      t.string :species
       t.string :category
       t.string :tier
       t.integer :top_speed

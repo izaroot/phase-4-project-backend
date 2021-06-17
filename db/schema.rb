@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_06_17_144718) do
     t.string "creature_name"
     t.string "password_digest"
     t.string "name"
-    t.string "type"
+    t.string "species"
     t.string "category"
     t.string "tier"
     t.integer "top_speed"
