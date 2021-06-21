@@ -11,6 +11,7 @@ class CreateCreatures < ActiveRecord::Migration[6.1]
       t.string :mode_of_travel
       t.string :image
       t.boolean :available
+      t.string :location
 
       t.timestamps
     end

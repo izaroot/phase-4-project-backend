@@ -7,7 +7,7 @@ class ApplicationController < ActionController::API
 
     def auth_header
         request.headers['Authorization']
-      end
+    end
     
     def decoded_token
         if auth_header

@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2021_06_17_144718) do
     t.string "mode_of_travel"
     t.string "image"
     t.boolean "available"
+    t.string "location"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
