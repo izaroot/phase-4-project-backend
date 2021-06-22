@@ -81,24 +81,6 @@ c5 = Creature.create(
     location: "40.71,-73.83"
 )
 
-puts "Seeding Users"
 
-u1 = User.create(
-    username: "Sean",
-    password_digest: "password",
-    membership_tier: "Platinum",
-    image: "",
-    bio: "Sean",
-    email: "Sean@Sean.com"
-)
-
-u1 = User.create(
-    username: "Isaac",
-    password_digest: "password",
-    membership_tier: "Platinum",
-    image: "",
-    bio: "Isaac",
-    email: "Isaac@Yitz.com"
-)
 
 puts "Done"
