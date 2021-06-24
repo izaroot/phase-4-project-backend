@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Creature.destroy_all
-User.destroy_all
+Trip.destroy_all
 
 puts "Seeding Creatures"
 
@@ -20,7 +20,7 @@ c1 = Creature.create(
     tier: "Platinum",
     top_speed: 15,
     mode_of_travel: "Land",
-    image: "",
+    image: "https://lh3.googleusercontent.com/pw/ACtC-3cMwwbvIx5xdVA9uytYYbUqRDtnprkq7faRhz8fqmZCytUavcZZPh12AcYwJPJJY_tQiiKw9Yo9wa-DWEDIA1v73a8bp-w-1iGMXniSW2PeEnX0hwqcS_TMt8rSU4GzY-YkQZSKpAObjL83jU4vARKT=w504-h896-no?authuser=0",
     available: true,
     location: "40.730610,-73.8999"
 )
@@ -34,7 +34,7 @@ c2 = Creature.create(
     tier: "Platinum",
     top_speed: 15,
     mode_of_travel: "Land",
-    image: "",
+    image: "https://m.media-amazon.com/images/M/MV5BNjNhZDM5NjctMTE0Yi00ZGI3LWJkNTAtMzQ5YTJmZWQ4ODUyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_.jpg",
     available: true,
     location: "40.730610,-73.85555"
 )
@@ -48,7 +48,7 @@ c3 = Creature.create(
     tier: "Platinum",
     top_speed: 150,
     mode_of_travel: "Land Air",
-    image: "",
+    image: "https://i.pinimg.com/originals/d7/67/e5/d767e5cb6e86ec741149cb373b0e16d8.jpg",
     available: true,
     location: "40.74,-73.86"
 )
@@ -62,7 +62,7 @@ c4 = Creature.create(
     tier: "Gold",
     top_speed: 12,
     mode_of_travel: "Land",
-    image: "",
+    image: "https://images.theconversation.com/files/350738/original/file-20200802-24-1dn76f1.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
     available: true,
     location: "40.72,-73.84"
 )
@@ -76,7 +76,7 @@ c5 = Creature.create(
     tier: "Platinum",
     top_speed: 15,
     mode_of_travel: "Water",
-    image: "",
+    image: "https://assets.bigcartel.com/product_images/270992903/Kraken.jpg?auto=format&fit=max&h=1200&w=1200",
     available: true,
     location: "40.71,-73.83"
 )
