@@ -81,6 +81,4 @@ c5 = Creature.create(
     location: "40.71,-73.83"
 )
 
-
-
 puts "Done"
