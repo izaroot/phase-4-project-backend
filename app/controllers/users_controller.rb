@@ -21,6 +21,13 @@ class UsersController < ApplicationController
         end
     end
 
+    def update
+        user = current_user
+        user.update(create_params)
+        render json: user
+    end
+
+
     def find_user_id
         render json: current_user
     end
